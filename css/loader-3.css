@@ -1,0 +1,125 @@
+
+/*Horizontal circles as bars loader-3 */
+
+#loader-3 #loader{
+	position: absolute;
+	width: 2vw;
+	height: 2vw;
+	background: rgb(255,0,0);
+	top:50%;
+	left: 50%;
+	border-radius: 50%;
+    z-index: 1500;
+    -webkit-animation: forward 2.3s linear infinite;
+    -moz-animation: forward 2.3s linear infinite;
+    -o-animation: forward 2.3s linear infinite;
+    animation: forward 2.3s linear infinite ;
+}
+
+#loader-3 > #loader:nth-of-type(1) {
+	-webkit-animation-delay: -0.46s;
+	-moz-animation-delay: -0.46s;
+	-o-animation-delay: -0.46s;
+		animation-delay: -0.46s;
+}
+
+#loader-3 > #loader:nth-of-type(2) {
+	-webkit-animation-delay: -0.92s;
+	-moz-animation-delay: -0.92s;
+	-o-animation-delay: -0.92s;
+		animation-delay: -0.92s;
+}
+#loader-3 > #loader:nth-of-type(3) {
+	-webkit-animation-delay: -1.38s;
+	-moz-animation-delay: -1.38s;
+	-o-animation-delay: -1.38s;
+		animation-delay: -1.38s;
+}
+#loader-3 > #loader:nth-of-type(4) {
+	-webkit-animation-delay: -1.84s;
+	-moz-animation-delay: -1.84s;
+	-o-animation-delay: -1.84s;
+		animation-delay: -1.84s;
+}
+
+/*keyframes for forward animations*/
+
+@-webkit-keyframes forward {
+	0% {
+		left: 40%;
+		opacity: 0;
+		background: rgb(255,255,0);
+	}
+	10% {
+		left: 45%;
+		opacity: 1;
+	}
+	90% {
+		left: 55%;
+		opacity: 1;
+	}
+	100% {
+		left: 62%;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes forward {
+	0% {
+		left: 40%;
+		opacity: 0;
+		background: rgb(255,255,0);
+	}
+	10% {
+		left: 45%;
+		opacity: 1;
+	}
+	90% {
+		left: 55%;
+		opacity: 1;
+	}
+	100% {
+		left: 62%;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes forward {
+	0% {
+		left: 40%;
+		opacity: 0;
+		background: rgb(255,255,0);
+	}
+	10% {
+		left: 45%;
+		opacity: 1;
+	}
+	90% {
+		left: 55%;
+		opacity: 1;
+	}
+	100% {
+		left: 62%;
+		opacity: 0;
+	}
+}
+
+@keyframes forward {
+	0% {
+		left: 40%;
+		opacity: 0;
+		background: rgb(255,255,0);
+	}
+	10% {
+		left: 45%;
+		opacity: 1;
+	}
+	90% {
+		left: 55%;
+		opacity: 1;
+	}
+	100% {
+		left: 62%;
+		opacity: 0;
+	}
+}
