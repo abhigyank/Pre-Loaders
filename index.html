@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/loader-3.css">
 	<link rel="stylesheet" href="css/loader-4.css">
 	<link rel="stylesheet" href="css/loader-5.css">
+	<link rel="stylesheet" href="css/loader-6.css">
 </head>
 <body>
 	<button id="1" onclick="change(this)">Loader 1</button>
@@ -22,6 +23,9 @@
 	
 	<button id="5" onclick="change(this)">Loader 5</button>
 	
+	<button id="6" onclick="change(this)">Loader 6</button>
+
+
 	<div class="loader-wrapper" id="loader-1">
 		<div id="loader"></div>
 	</div>
@@ -56,16 +60,21 @@
 	</div>
 
 
+	<div class="loader-wrapper" id="loader-6">
+			<div id="loader"></div>
+	</div>
+
+
 	<script>
-		buttons = document.getElementsByClassName('loader-wrapper');
-		buttons[0].style.display="inherit";	
+		loaders = document.getElementsByClassName('loader-wrapper');
+		loaders[0].style.display="inherit";	
 		function change(self)
 		{
-			for (var i = buttons.length - 1; i >= 0; i--) {
-				buttons[i].style.display="none";
+			for (var i = loaders.length - 1; i >= 0; i--) {
+				loaders[i].style.display="none";
 			}
 			id = self.id;
-			buttons[id-1].style.display="inherit";
+			loaders[id-1].style.display="inherit";
 		};
 	</script>
 </body>
