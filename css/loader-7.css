@@ -1,0 +1,307 @@
+#loader-7 #loader{
+		position: absolute;
+		left: 45%;
+		top: 50%;
+		width: 10%;
+		min-height: 7px;
+		max-height: 10px;
+		background:red;
+		-webkit-animation: loader 9s infinite forwards;
+		-moz-animation: loader 9s infinite forwards;
+		-o-animation: loader 9s infinite forwards;
+			animation: loader 9s infinite forwards;
+		animation-delay: 0s;
+}
+#loader-7 #loader::before{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+		width: 144px;
+		top: 0;
+		left: 0;
+		background:blue;
+		-webkit-animation: loaderB 9s infinite forwards;
+		-moz-animation: loaderB 9s infinite forwards;
+		-o-animation: loaderB 9s infinite forwards;
+			animation: loaderB 9s infinite forwards;
+}
+#loader-7 #loader::after{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		z-index: -2;
+		width: 144px;
+		top: 0;
+		left: 0;
+		background:green;-webkit-animation: loaderA 9s infinite forwards;
+		-moz-animation: loaderA 9s infinite forwards;
+		-o-animation: loader 9s infinite forwards;
+			animation: loaderA 9s infinite forwards;
+		
+
+	}
+
+@-webkit-keyframes loader{
+		0%{
+			width: 10%;
+		}
+		16.66666%{
+			width: 0;
+		}
+		33.33333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 0%;
+		}
+		100%{
+			width: 10%;
+		}
+	}
+
+@-moz-keyframes loader{
+		0%{
+			width: 10%;
+		}
+		16.66666%{
+			width: 0;
+		}
+		33.33333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 0%;
+		}
+		100%{
+			width: 10%;
+		}
+	}
+
+@-o-keyframes loader{
+		0%{
+			width: 10%;
+		}
+		16.66666%{
+			width: 0;
+		}
+		33.33333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 0%;
+		}
+		100%{
+			width: 10%;
+		}
+	}
+
+@keyframes loader{
+		0%{
+			width: 10%;
+		}
+		16.66666%{
+			width: 0;
+		}
+		33.33333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 0%;
+		}
+		100%{
+			width: 10%;
+		}
+	}
+
+@-webkit-keyframes loaderB{
+		0%{
+			width: 144px;
+		}
+		16.66666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+
+@-moz-keyframes loaderB{
+		0%{
+			width: 144px;
+		}
+		16.66666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+
+@-o-keyframes loaderB{
+		0%{
+			width: 144px;
+		}
+		16.66666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+
+@keyframes loaderB{
+		0%{
+			width: 144px;
+		}
+		16.66666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 0;
+		}
+		49.99999%{
+			width: 0;	
+		}
+		66.66666%{
+			width: 0;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+
+@-moz-keyframes loaderA{
+		0%{
+			width: 144px;
+		}
+		16.6666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 144px;
+		}
+		49.99999%{
+			width: 0;
+		}
+		66.66666%{
+			width: 144px;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+	
+@-o-keyframes loaderA{
+		0%{
+			width: 144px;
+		}
+		16.6666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 144px;
+		}
+		49.99999%{
+			width: 0;
+		}
+		66.66666%{
+			width: 144px;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
+	
+@keyframes loaderA{
+		0%{
+			width: 144px;
+		}
+		16.6666%{
+			width: 144px;
+		}
+		33.333333%{
+			width: 144px;
+		}
+		49.99999%{
+			width: 0;
+		}
+		66.66666%{
+			width: 144px;
+		}
+		83.333333%{
+			width: 144px;
+		}
+		100%{
+			width: 144px;
+		}
+	}
