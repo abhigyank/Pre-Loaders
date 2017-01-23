@@ -1,4 +1,4 @@
-#loader{
+#loader > #loader-7{
 		position: absolute;
 		left: 40%;
 		top: 50%;
@@ -9,7 +9,7 @@
 		-webkit-animation: loader 9s infinite forwards;
 		animation-delay: 0s;
 	}
-	#loader::before{
+#loader-7::before{
 		content: "";
 		position: absolute;
 		bottom: 0;
@@ -21,7 +21,7 @@
 		-webkit-animation: loaderB 9s infinite forwards;
 
 	}
-	#loader::after{
+#loader-7::after{
 		content: "";
 		position: absolute;
 		bottom: 0;
@@ -34,7 +34,7 @@
 
 	}
 
-	@-webkit-keyframes loader{
+@-webkit-keyframes loader{
 		0%{
 			width: 10%;
 		}
@@ -58,7 +58,7 @@
 		}
 	}
 
-	@-webkit-keyframes loaderB{
+@-webkit-keyframes loaderB{
 		0%{
 			width: 144px;
 		}
@@ -81,7 +81,7 @@
 			width: 144px;
 		}
 	}
-	@-webkit-keyframes loaderA{
+@-webkit-keyframes loaderA{
 		0%{
 			width: 144px;
 		}
