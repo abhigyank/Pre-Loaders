@@ -1,0 +1,93 @@
+/*Googel Now MDL loading */
+
+#loader-8 #loader{
+	position: relative;
+    left: 45%;
+    top: 50%;
+    z-index: 2;
+	display: inline-block;
+	height: 2vw;
+	width: 2vw;
+	border-radius: 100%;
+	background: blue;
+	margin: 0.8vw;
+}
+#loader-8 #loader:nth-of-type(1){
+	background: #1565c0;
+	-webkit-animation: jump 1.8s infinite ease-in-out;
+	-moz-animation: jump 1.8s infinite ease-in-out;
+	-o-animation: jump 1.8s infinite ease-in-out;
+		animation: jump 1.8s infinite ease-in-out;
+}
+
+#loader-8 #loader:nth-of-type(2	){
+	background: #d50000;
+	-webkit-animation: jump 1.8s 0.2s infinite ease-in-out;
+	-moz-animation: jump 1.8s 0.2s infinite ease-in-out;
+	-o-animation: jump 1.8s 0.2s infinite ease-in-out;
+		animation: jump 1.8s 0.2s infinite ease-in-out;
+}
+
+#loader-8 #loader:nth-of-type(3){
+	background: #ffc107;
+	-webkit-animation: jump 1.8s 0.4s infinite ease-in-out;
+	-moz-animation: jump 1.8s 0.4s infinite ease-in-out;
+	-o-animation: jump 1.8s 0.4s infinite ease-in-out;
+		animation: jump 1.8s 0.4s infinite ease-in-out;
+}
+
+#loader-8 #loader:nth-of-type(4){
+	background: #1b5e20;
+	-webkit-animation: jump 1.8s 0.6s infinite ease-in-out;
+	-moz-animation: jump 1.8s 0.6s infinite ease-in-out;
+	-o-animation: jump 1.8s 0.6s infinite ease-in-out;
+		animation: jump 1.8s 0.6s infinite ease-in-out;
+}
+
+@-webkit-keyframes jump{
+	0%{
+		top: 50%;
+	}
+	50%{
+		top: 48.5%;
+	}
+	100%{
+		top: 50%;
+	}
+}
+
+@-moz-keyframes jump{
+	0%{
+		top: 50%;
+	}
+	50%{
+		top: 48.5%;
+	}
+	100%{
+		top: 50%;
+	}
+}
+
+@-o-keyframes jump{
+	0%{
+		top: 50%;
+	}
+	50%{
+		top: 48.5%;
+	}
+	100%{
+		top: 50%;
+	}
+}
+
+@keyframes jump{
+	0%{
+		top: 50%;
+	}
+	50%{
+		top: 48.5%;
+	}
+	100%{
+		top: 50%;
+	}
+}
